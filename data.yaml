@@ -1,0 +1,12 @@
+- template: 'views/templates/index.njk'
+  slug: 'pages'
+  context:
+    username: abc
+- template: 'views/templates/index.njk'
+  slug: 'pages/one.html'
+  context:
+    username: one
+- template: 'views/templates/index.njk'
+  slug: 'pages/two/index.html'
+  context:
+    username: two

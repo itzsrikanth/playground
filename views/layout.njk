@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+    {# <link rel="stylesheet" type="text/css" href="/index.{{ __webpack__.hash }}.css" /> #}
+</head>
+<body>
+    {% block body %}
+    This is the main body
+    {% endblock %}
+    <script type="text/javascript" src="/index.{{ __webpack__.hash }}.js"></script>
+</body>
+</html>
